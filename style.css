@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    background-color: grey;
+}
+
+#topContainer {
+    height: 200px;
+    text-align: center;
+    
+    font-size: xx-large;
+    border: 30px white;
+    background-color: chocolate;
+}
+
+#intro {
+    text-align: center;
+    line-height: 150px;
+}
+
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: sticky;
+    
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    
+    
+    
+
+}
+.circle-text {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+}
