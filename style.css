@@ -42,3 +42,34 @@ body {
     width: 100%;
     text-align: center;
 }
+
+.genreHeader {
+    background: greenyellow;
+}
+#horrorHeader {
+    position: absolute;
+    left: 5%;
+    right: 95%;
+    
+
+
+}
+
+#familyHeader {
+    position: absolute;
+    left: 35%;
+    right: 65%;
+    
+}
+#comedyHeader {
+    position: absolute;
+    left: 60%;
+    right: 40%;
+    
+}
+#sci-fiHeader {
+    position: absolute;
+    left: 90%;
+    right: 10%;
+    
+}
