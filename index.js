@@ -1,7 +1,7 @@
 
-// let clickHereDiv = document.getElementsByClassName('circle-text');
+let clickHereDiv = document.getElementById('circle-text');
 
-// //clickHereDiv.addEventListener('click', event => clickHereDiv.remove);
+clickHereDiv.addEventListener('click', () => clickHereDiv.remove());
 
 
 // let test = document.getElementById('categoryContainer');
@@ -10,6 +10,8 @@
 //    debugger
 //     console.log(event)
 // });
+
+
 
 
 
