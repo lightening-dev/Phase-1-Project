@@ -73,3 +73,17 @@ body {
     right: 10%;
     
 }
+
+label[for="Choose Movie"] {
+
+    position: absolute;
+    bottom: 99%;
+    left: 27%;
+}
+
+#form {
+
+    position: absolute;
+    bottom: 35%;
+    right: 10%;
+}

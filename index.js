@@ -1,14 +1,15 @@
 
-let clickHereDiv = document.getElementsByClassName('circle-text');
+// let clickHereDiv = document.getElementsByClassName('circle-text');
 
-//clickHereDiv.addEventListener('click', event => clickHereDiv.remove);
-
-function hello() {
-    console.log('hi')
-}
+// //clickHereDiv.addEventListener('click', event => clickHereDiv.remove);
 
 
-clickHereDiv.addEventListener("click", function(event){
-    console.log(event)
-});
+// let test = document.getElementById('categoryContainer');
+
+// clickHereDiv.addEventListener("click", function(event){
+//    debugger
+//     console.log(event)
+// });
+
+
 
