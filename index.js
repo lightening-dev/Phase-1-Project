@@ -51,22 +51,22 @@ function buttonActions(buttons) {
                        
                       
                        if(selectedGenre == "Horror") {
-                            image.src = globalMovieData[3].image;
+                            image.src = globalMovieData[2].image;
                             Horror.appendChild(image); 
                         }
                        else if (selectedGenre == "Family") {
-                            image.src = globalMovieData[1].image;
+                            image.src = globalMovieData[0].image;
                             Family.appendChild(image)
                        }
                        else if (selectedGenre == "Comedy") {
-                            image.src = globalMovieData[4].image;
+                            image.src = globalMovieData[3].image;
                             Comedy.appendChild(image)
                        }
                        else if (selectedGenre == "Sci-Fi") {
-                            image.src = globalMovieData[2];
+                            image.src = globalMovieData[1].image;
                             SciFi.appendChild(image);
                        }
-                       
+
                 }
                   else alert("Wrong genre, try again!")
         }           )                )
