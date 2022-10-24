@@ -39,14 +39,6 @@
 
 {
     "id": "5",
-    "name": "Scream",
-    "genre": "Horror",
-    "rating": "R",
-    "image": "https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" 
-},
-
-{
-    "id": "6",
     "name": "Moana",
     "genre": "Family",
     "rating": "PG",

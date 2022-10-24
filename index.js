@@ -1,5 +1,5 @@
 
-    const clickHereDiv = document.getElementById('circle-text');
+    
 
     let selectedGenre = "";
     let selectedMovieGenre = "";
@@ -8,7 +8,7 @@
 
         console.log(selectedMovieGenre);
     }
-//clickHereDiv.addEventListener('click', () => clickHereDiv.remove());
+
 
     let dropDownList = document.getElementById('DropdownList');
 
@@ -21,7 +21,6 @@ dropDownList.addEventListener('change', event => {
         let movieGenre = event.target.value;
         console.log(movieGenre)
         selectedMovieGenre = movieGenre;
-        //console.log(selectedMovieGenre)
         return movieGenre}
     ); 
     const Horror = document.getElementById('horrorHeader');
