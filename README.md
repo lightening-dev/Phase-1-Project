@@ -18,6 +18,6 @@ If you succeed in choosing the correct genre, you will see the image of the movi
 
 ### Getting Started
 
-![Copy My Code!](/Users/lighteninggibson/Phase-1-Project/F8876FB9-6256-43E5-BC8E-B8C3C4AC844B.jpeg)
-* Step 1 - Clone my entire Phase - 1 Project to your local IDE. 
+
+
 

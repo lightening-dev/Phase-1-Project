@@ -29,14 +29,15 @@ dropDownList.addEventListener('change', event => {
     const Comedy = document.getElementById('comedyHeader');
     const SciFi = document.getElementById('sci-fiHeader');
         
-      
+      let globalMovieData = [];
 
-    async function fetchMovies(id) {
-        const movieData = await fetch(`http://localhost:3000/movies/${id}`)
+    async function fetchMovies() {
+        const movieData = await fetch(`http://localhost:3000/movies`)
         .then(response  => response.json())
-        .then(data => image = data.image)
+        .then(data => globalMovieData = data) 
         
         }
+      fetchMovies();
         
         
        
@@ -50,21 +51,22 @@ function buttonActions(buttons) {
                        
                       
                        if(selectedGenre == "Horror") {
-                            image.src = fetchMovies(3);
+                            image.src = globalMovieData[3].image;
                             Horror.appendChild(image); 
                         }
                        else if (selectedGenre == "Family") {
-                            image.src = fetchMovies(1);
+                            image.src = globalMovieData[1].image;
                             Family.appendChild(image)
                        }
                        else if (selectedGenre == "Comedy") {
-                            image.src = fetchMovies(4);
+                            image.src = globalMovieData[4].image;
                             Comedy.appendChild(image)
                        }
                        else if (selectedGenre == "Sci-Fi") {
-                            image.src = fetchMovies(2);
+                            image.src = globalMovieData[2];
                             SciFi.appendChild(image);
                        }
+                       
                 }
                   else alert("Wrong genre, try again!")
         }           )                )
