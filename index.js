@@ -1,6 +1,6 @@
 
     
-
+    let movieName = "";
     let selectedGenre = "";
     let selectedMovieGenre = "";
 
@@ -19,8 +19,10 @@
 dropDownList.addEventListener('change', event => {
         event.preventDefault();
         let movieGenre = event.target.value;
+        let MovieName = event.target.name;
         console.log(movieGenre)
         selectedMovieGenre = movieGenre;
+        
         return movieGenre}
     ); 
     const Horror = document.getElementById('horrorHeader');
@@ -45,6 +47,8 @@ function buttonActions(buttons) {
         buttons.forEach(button => button.addEventListener("click", event => { 
                   event.preventDefault();
                   selectedGenre = event.target.value;
+                  movieName = event.target.name;
+
                   if(selectedGenre === selectedMovieGenre) {
                        let image = document.createElement('img');
                        
@@ -53,8 +57,12 @@ function buttonActions(buttons) {
                             image.src = globalMovieData[2].image;
                             Horror.appendChild(image); 
                         }
-                       else if (selectedGenre == "Family") {
+                       else if (selectedGenre == "Family" && movieName == "Toy Story") {
                             image.src = globalMovieData[0].image;
+                            Family.appendChild(image)
+                       }
+                       else if (selectedGenre == "Family" && movieName == "Moana"){
+                            image.src = globalMovieData[4].image;
                             Family.appendChild(image)
                        }
                        else if (selectedGenre == "Comedy") {
