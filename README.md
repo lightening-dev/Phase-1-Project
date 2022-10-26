@@ -26,11 +26,15 @@ If you succeed in choosing the correct genre, you will see the image of the movi
 
 ### Step 3 - open your terminal, and run the commands shown below, and also paste the url
        ####   -> git clone https://github.com/lightening-dev/Phase-1-Project/
-         -> navigate to the file just uploaded to your computer, and open it using your favorite IDE open command
-        ###  -> start a terminal session, and run the command, 
-       ####    -> json-server --watch db.json. 
+         -> navigate to the file just uploaded to your computer, and open it using your favorite IDE open command ####
+         
+       
+       ###  -> start a terminal session, and run the command, 
+      
+      ####    -> json-server --watch db.json. ####
+     
       ###    -> in a seperate terminal session, run the command, 
-      ####     -> open index.html.  
+      ####     -> open index.html.  ####
 
 ### Step 4 - Play arround in the browser session you just opened!! 
 
