@@ -25,16 +25,12 @@ If you succeed in choosing the correct genre, you will see the image of the movi
 ### Step 2 - copy link ![F8876FB9-6256-43E5-BC8E-B8C3C4AC844B_1_105_c](https://user-images.githubusercontent.com/91485311/197913666-c213fda4-1e93-4f6d-bacf-68bdb689853b.jpeg)
 
 ### Step 3 - open your terminal, and run the commands shown below, and also paste the url
-       ####   -> git clone https://github.com/lightening-dev/Phase-1-Project/
-         -> navigate to the file just uploaded to your computer, and open it using your favorite IDE open command ####
-         
-       
-       ###  -> start a terminal session, and run the command, 
       
-      ####    -> json-server --watch db.json. ####
-     
-      ###    -> in a seperate terminal session, run the command, 
-      ####     -> open index.html.  ####
+      #### $ mkdir Phase-1
+           $ cd Phase-1
+           $ git clone https://github.com/lightening-dev/Phase-1-Project
+           $ code . 
+ open a new 
 
 ### Step 4 - Play arround in the browser session you just opened!! 
 
