@@ -1,29 +1,36 @@
 
     
-    let movieName = "";
+    let MovieName = "";
     let selectedGenre = "";
     let selectedMovieGenre = "";
-
+    let movieName = "";
     const compareResults = (selectedMovieGenre) => {
 
         console.log(selectedMovieGenre);
     }
 
 
-    let dropDownList = document.getElementById('DropdownList');
+    let dropDownList = document.querySelector('.DropdownList');
 
     let buttons = document.querySelectorAll("button");
 
     let categoryContainer = document.getElementById('categorContainer');
-
-dropDownList.addEventListener('change', event => {
+    
+    const select = document.getElementById('select')
+    
+select.addEventListener('change', event => {
         event.preventDefault();
         let movieGenre = event.target.value;
-        let MovieName = event.target.name;
-        console.log(movieGenre)
-        selectedMovieGenre = movieGenre;
+       localmovieName = event.target[select.selectedIndex].id
+        console.log(movieGenre);
         
-        return movieGenre}
+        console.log(event.target[select.selectedIndex].id);
+        selectedMovieGenre = movieGenre;
+        movieName = localmovieName;
+        
+
+        
+        return (movieGenre, movieName)}
     ); 
     const Horror = document.getElementById('horrorHeader');
     const Family = document.getElementById('familyHeader');
@@ -35,7 +42,10 @@ dropDownList.addEventListener('change', event => {
     async function fetchMovies() {
         const movieData = await fetch(`http://localhost:3000/movies`)
         .then(response  => response.json())
-        .then(data => globalMovieData = data) 
+        .then(data => {
+            
+            globalMovieData = data}) 
+    
         
         }
       fetchMovies();
@@ -47,21 +57,24 @@ function buttonActions(buttons) {
         buttons.forEach(button => button.addEventListener("click", event => { 
                   event.preventDefault();
                   selectedGenre = event.target.value;
-                  movieName = event.target.name;
-
+                  //movieName = event.target.id;
+                  
+                    //console.log(selectedGenre);
+                    //console.log(movieName);
                   if(selectedGenre === selectedMovieGenre) {
                        let image = document.createElement('img');
-                       
-                      
+                        image.style.maxWidth = "100px"
+                     
                        if(selectedGenre == "Horror") {
                             image.src = globalMovieData[2].image;
                             Horror.appendChild(image); 
                         }
                        else if (selectedGenre == "Family" && movieName == "Toy Story") {
+                        
                             image.src = globalMovieData[0].image;
                             Family.appendChild(image)
                        }
-                       else if (selectedGenre == "Family" && movieName == "Moana"){
+                       else if (selectedGenre == "Family" && movieName == "Moana" ){
                             image.src = globalMovieData[4].image;
                             Family.appendChild(image)
                        }
