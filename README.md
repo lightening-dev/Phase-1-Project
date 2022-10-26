@@ -30,7 +30,16 @@ If you succeed in choosing the correct genre, you will see the image of the movi
            $ cd Phase-1
            $ git clone https://github.com/lightening-dev/Phase-1-Project
            $ code . 
- open a new 
+ open two new terminal session with split option, and run the commands on the left terminal session first
+
+![8449D6E2-4161-41B1-89DF-60A04C2E5DA2_4_5005_c](https://user-images.githubusercontent.com/91485311/197916545-b4384bb1-9576-442a-a52a-16dd8368c6f7.jpeg)
+
+       #### json-server --watch db.json
+ 
+ And on the right terminal session run the command 
+       
+       #### open index.html
+ 
 
 ### Step 4 - Play arround in the browser session you just opened!! 
 
