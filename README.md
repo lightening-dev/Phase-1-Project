@@ -1,6 +1,8 @@
 # This is My Phase 1 Project!
+
 https://img.shields.io/github/downloads/lightening-dev/Phase-1-Project/total?logo=Github&style=flat-square
 https://img.shields.io/github/directory-file-count/lightening-dev/Phase-1-Project?style=flat-square
+
 This is my README file, for my Phase 1 project 
 In this README, you will find
 
