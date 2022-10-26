@@ -47,4 +47,14 @@ If you succeed in choosing the correct genre, you will see the image of the movi
 
 Credits and links to all the places that I used for my image sources
 
+https://cdn.shopify.com/s/files/1/0310/7487/7577/products/00873Moana_Blackstone__Rounded_900x.png?v=1628251656
+
+https://humanehollywood.org/app/uploads/2020/06/lRQiJXETkCnVVurHmglNvMXrZOx.jpg
+
+https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg
+
+https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg
+
+https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_.jpg
+
 
