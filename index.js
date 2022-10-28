@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     select.addEventListener('change', event => {
         event.preventDefault();
-         selectedMovieGenre = event.target.value;
+        selectedMovieGenre = event.target.value;
         movieName = event.target[select.selectedIndex].id
         return (selectedMovieGenre, movieName)
             }
